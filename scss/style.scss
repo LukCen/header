@@ -1,0 +1,29 @@
+$h1-color:#fff;
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* selektor - wybiera element który 
+edytujemy i nadaje wprowadzone atrybuty */
+
+header {
+    /* właściwość CSS: wartość */
+
+    background: url(../assets/img/bg_header.jpg) center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+header h1 {
+    color: $h1-color; 
+}  
+
+p {
+    background-color: $h1-color;
+}

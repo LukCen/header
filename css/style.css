@@ -1,23 +1,26 @@
+@charset "UTF-8";
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* selektor - wybiera element który 
 edytujemy i nadaje wprowadzone atrybuty */
-
 header {
-    /* właściwość CSS: wartość */
-
-    background: url(../assets/img/bg_header.jpg) center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center
-    
-
+  /* właściwość CSS: wartość */
+  background: url(../assets/img/bg_header.jpg) center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
-    color: #fff; 
+  color: #fff;
 }
+
+p {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
